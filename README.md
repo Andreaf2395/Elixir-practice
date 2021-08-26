@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hello
 
 To start your Phoenix server:
@@ -18,3 +19,7 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+=======
+# Elixir-practice
+practice for elixir and pheonix
+>>>>>>> 2084dd1047383a8fd3fddceb1b135f1a5cd46e31
