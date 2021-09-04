@@ -60,13 +60,19 @@ let chatInput         = document.querySelector("#chat-input")
 let messagesContainer = document.querySelector("#messages")
 
 chatInput.addEventListener("keypress", event => {
+  console.log('outgoing');
   if(event.key === 'Enter'){
     channel.push("new_msg", {body: chatInput.value})
     chatInput.value = ""
   }
+  // if(event.key === 'Enter'){
+  //   channel.push("ping", {body: chatInput.value})
+  //   chatInput.value = "ping"
+  // }
 })
 
 channel.on("new_msg", payload => {
+  console.log('incoming');
   let messageItem = document.createElement("p")
   messageItem.innerText = `[${Date()}] ${payload.body}`
   messagesContainer.appendChild(messageItem)

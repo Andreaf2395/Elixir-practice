@@ -35,6 +35,9 @@
       </li>
     </ul>
   </article>
-  <div id="messages" role="log" aria-live="polite"></div>
-  <input id="chat-input" type="text">
+
+</section>
+<section>
+<div id="messages" role="log" aria-live="polite"></div>
+  Message:<input id="chat-input" type="text">
 </section>
